@@ -14,7 +14,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="my-20 mx-auto max-w-[800px] text-textLight">
+    <div className=" mx-auto max-w-[800px] text-textLight">
       <SectionHeader number={"2"} text={"Some things I've built"} />
       <ProjectCard
         number={projects[0].number}

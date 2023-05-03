@@ -2,7 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Home = () => {
   return (
-    <div className="bg-backgound w-full  flex items-center justify-center  max-w-[900px] mx-auto mt-10">
+    <div className="bg-backgound w-full  flex items-center justify-center  max-w-[800px] mx-auto  h-screen pb-40 pt-40">
       {/* content */}
       <div className="flex flex-col text-left items-start">
         <p className="code text-neonPink text-sm mb-2">Hi, my name is</p>
@@ -23,7 +23,7 @@ const Home = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <button className="border border-textLight py-2 px-4 mt-2 text-textLight rounded-sm group duration-300 hover:border-neonPink">
+        <button className="border border-textLight py-2 px-4 mt-8 text-textLight rounded-sm group duration-300 hover:border-neonPink">
           <div className="flex items-center justify-center box-border">
             <div className="px-1 text-sm">Checkout my work</div>
             <div className="px-2 duration-300 group-hover:rotate-90 group-hover:text-neonPink">

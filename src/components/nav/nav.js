@@ -4,7 +4,7 @@ import Button from "../common/button";
 const Nav = () => {
   const navItems = ["About", "Work", "Contact"];
   return (
-    <nav className="bg-backgound w-full h-24 sticky flex justify-between items-center pl-12 pr-6">
+    <nav className="bg-backgound w-full h-24  flex justify-between items-center pl-12 pr-6 absolute">
       <Logo />
       <ul className="flex items-center text-textLight text-sm">
         {navItems.map((item, index) => {

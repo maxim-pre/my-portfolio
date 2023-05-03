@@ -3,14 +3,14 @@ import profilePicture from "../../images/me.jpg";
 import SectionHeader from "../common/sectionHeader";
 const About = () => {
   return (
-    <div className="my-20 max-w-[900px] mx-auto text-textLight ">
+    <div className=" max-w-[700px] mx-auto text-textLight h-[40rem] pt-16 ">
       {/* header */}
       <SectionHeader number={"1"} text={"About"} />
       {/* end header */}
 
       <div className="grid grid-cols-5">
-        <div className="flex flex-col col-span-3 text-left text-textNormal text-sm ">
-          <p className="my-2 text-xs">
+        <div className="flex flex-col col-span-3 text-left text-textNormal px-4 ">
+          <p className="my-2 text-xs leading-[20px]">
             I thought I had it all together, but I was led astray the day you
             walked away. You were the clock that was tickin' in my home. Changed
             my state of mind. Love's so hard to find. I thought I had it all
@@ -18,7 +18,7 @@ const About = () => {
             clock that was tickin' in my home. Changed my state of mind. Love's
             so hard to find
           </p>
-          <p className="my-2 text-xs">
+          <p className="my-2 text-xs leading-[20px]">
             I thought I had it all together, but I was led astray the day you
             walked away. You were the clock that was tickin' in my home. Changed
             my state of mind. Love's so hard to find I thought I had it all
@@ -26,7 +26,7 @@ const About = () => {
             clock that was tickin' in my home. Changed my state of mind. Love's
             so hard to find
           </p>
-          <p className="my-2 text-xs">
+          <p className="my-2 text-xs leading-[20px]">
             I thought I had it all together, but I was led astray the day you
             walked away. You were the clock that was tickin' in my home. Changed
             my state of mind. Love's so hard to find
