@@ -1,18 +1,15 @@
 import Button from "../../components/common/button";
 import { FiGithub } from "react-icons/fi";
 
-const ProjectCard = ({ number, name, description, skills, img }) => {
+const ProjectCardAlternate = ({ number, name, description, skills, img }) => {
   return (
     <div className="grid grid-cols-7 py-6">
-      <div className="col-span-4 object-cover my-auto">
-        <img src={img} alt={name} />
-      </div>
-      <div className="col-span-3 relative flex flex-col items-end">
+      <div className="col-span-3 relative flex flex-col items-start">
         <h2 className="text-right text-xs text-neonPink code ">
           project {number}
         </h2>
         <h2 className="text-right font-bold">{name}</h2>
-        <div className=" w-[110%]  bg-cardColor shadow-lg text-xs py-4 px-4 text-right my-4">
+        <div className=" w-[110%]  bg-cardColor shadow-lg text-xs py-4 px-4 text-left my-4">
           {description}
         </div>
         <div className="code text-xs text-textNormal">
@@ -27,8 +24,11 @@ const ProjectCard = ({ number, name, description, skills, img }) => {
           </div>
         </div>
       </div>
+      <div className="col-span-4 object-cover my-auto">
+        <img src={img} alt={name} />
+      </div>
     </div>
   );
 };
 
-export default ProjectCard;
+export default ProjectCardAlternate;
