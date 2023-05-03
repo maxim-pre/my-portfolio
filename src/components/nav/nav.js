@@ -1,5 +1,6 @@
 import NavLink from "./navLink";
 import Logo from "./logo";
+import Button from "../common/button";
 const Nav = () => {
   const navItems = ["About", "Work", "Contact"];
   return (
@@ -9,11 +10,7 @@ const Nav = () => {
         {navItems.map((item, index) => {
           return <NavLink key={index} text={item} number={index + 1} />;
         })}
-        <div className="mx-6 rounded bg-neonPink">
-          <button className=" border rounded py-2 px-4 border-lighttext-neonPink text-neonPink hover:-translate-x-1 hover:-translate-y-1 duration-300 bg-backgound">
-            Resume
-          </button>
-        </div>
+        <Button label={"Resume"} />
       </ul>
     </nav>
   );

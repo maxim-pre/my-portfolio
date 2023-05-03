@@ -6,7 +6,7 @@ const BulletPoint = ({ text }) => {
       <span className="text-neonPink mr-2">
         <RxTriangleRight />
       </span>
-      {text}
+      <span className="code">{text}</span>
     </div>
   );
 };

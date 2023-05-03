@@ -45,7 +45,11 @@ const About = () => {
             <div className="absolute w-48 h-full bg-neonPink z-20 opacity-30 group-hover:opacity-0 duration-200"></div>
             <div className="absolute w-48 h-full border-2 border-neonPink translate-x-4 translate-y-4 rounded group-hover:translate-x-5 group-hover:translate-y-5 duration-200 "></div>
             <div className="relative group-hover:-translate-x-1 group-hover:-translate-y-1 duration-200">
-              <img className="z-10 rounded" src={profilePicture} />
+              <img
+                className="z-10 rounded"
+                src={profilePicture}
+                alt="profilePicture"
+              />
             </div>
           </div>
         </div>

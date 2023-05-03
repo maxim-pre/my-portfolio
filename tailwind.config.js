@@ -7,6 +7,7 @@ module.exports = {
       neonPink: "#FB2576",
       textLight: "#ccd6f6",
       textNormal: "#8892b0",
+      cardColor: "#112240",
     },
     extend: {},
   },

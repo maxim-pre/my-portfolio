@@ -4,7 +4,7 @@ const SectionHeader = ({ number, text }) => {
       <h1 className="">
         <span className="text-neonPink mr-2">0{number}.</span> {text}
       </h1>
-      <div className="w-[50%] bg-[#112240] h-[1px] ml-4"></div>
+      <div className="w-80 bg-[#112240] h-[1px] ml-4"></div>
     </div>
   );
 };
