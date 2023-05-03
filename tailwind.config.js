@@ -6,7 +6,7 @@ module.exports = {
       backgound: "#0a192f",
       neonPink: "#FB2576",
       textLight: "#ccd6f6",
-      textNormal: "#a8b2d1",
+      textNormal: "#8892b0",
     },
     extend: {},
   },

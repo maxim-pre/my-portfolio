@@ -1,11 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Ubuntu&display=swap");
 .App {
   text-align: center;
-  font-family: "Nunito Sans", "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.roboto {
-  font-family: "Nunito Sans", "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Ubuntu", "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .code {
