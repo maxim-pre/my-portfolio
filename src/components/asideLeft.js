@@ -2,7 +2,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const AsideLeft = () => {
   return (
-    <div className="fixed bottom-0 px-8 flex flex-col items-center text-textNormal">
+    <div className="fixed bottom-0 left-0 px-8 flex flex-col items-center text-textNormal">
       <div className="my-2 cursor-pointer hover:text-neonPink hover:-translate-y-1 duration-200">
         <FiGithub />
       </div>

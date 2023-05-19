@@ -6,16 +6,41 @@ import Work from "./components/work/work";
 import AsideLeft from "./components/asideLeft";
 import AsideRight from "./components/asideRight";
 import Contact from "./components/contact";
+import { useState, useEffect } from "react";
 function App() {
+  const [scrollDirection, setScrollDirection] = useState("up");
+  const [y, setY] = useState(0);
+
+  const handleScroll = (e) => {
+    const window = e.currentTarget;
+    if (y > window.scrollY) {
+      setScrollDirection("up");
+    } else if (y < window.scrollY) {
+      setScrollDirection("down");
+    }
+    setY(window.scrollY);
+  };
+
+  useEffect(() => {
+    setY(window.scrollY);
+    window.addEventListener("scroll", (e) => handleScroll(e));
+    return () => {
+      window.removeEventListener("scroll", (e) => handleScroll(e));
+    };
+  }, [y]);
+
+  window.addEventListener("scroll", handleScroll);
   return (
     <div className="App">
-      <Nav />
-      <AsideLeft />
-      <AsideRight />
-      <Home />
-      <About />
-      <Work />
-      <Contact />
+      <Nav scroll={scrollDirection} />
+      <div className="flex flex-col items-center mx-20">
+        <AsideLeft />
+        <AsideRight />
+        <Home />
+        <About />
+        <Work />
+        <Contact />
+      </div>
     </div>
   );
 }

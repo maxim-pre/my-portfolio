@@ -13,8 +13,12 @@ const ProjectCardAlternate = ({ number, name, description, skills, img }) => {
           {description}
         </div>
         <div className="code text-xs text-textNormal">
-          {skills.map((skill) => {
-            return <span className="mx-1">{skill}</span>;
+          {skills.map((skill, index) => {
+            return (
+              <span key={index} className="mx-1">
+                {skill}
+              </span>
+            );
           })}
         </div>
         <div className="flex mt-4 items-center  justify-start">
