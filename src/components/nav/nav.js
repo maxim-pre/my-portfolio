@@ -6,7 +6,7 @@ const Nav = ({ scroll }) => {
   const scrollClass = scroll == "up" ? "" : "-translate-y-[100%]";
   return (
     <nav
-      className={`bg-backgound w-full h-24  flex justify-between items-center pl-12 pr-6 fixed top-0 ease-in duration-300 ${scrollClass}`}
+      className={`bg-backgound w-full h-24 z-30 flex justify-between items-center pl-12 pr-6 fixed top-0 ease-in duration-300 ${scrollClass}`}
     >
       <Logo />
       <ul className="flex items-center text-textLight text-sm">

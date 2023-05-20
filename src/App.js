@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <Nav scroll={scrollDirection} />
-      <div className="flex flex-col items-center mx-20">
+      <div className="flex flex-col items-center sm:px-28 px-8">
         <AsideLeft />
         <AsideRight />
         <Home />

@@ -2,7 +2,7 @@ import { RxTriangleRight } from "react-icons/rx";
 
 const BulletPoint = ({ text }) => {
   return (
-    <div className="col-span-3 text-xs flex items-center">
+    <div className="sm:col-span-3 col-span-4 text-xs flex items-center sm:justify-start justify-center">
       <span className="text-neonPink mr-2">
         <RxTriangleRight />
       </span>
