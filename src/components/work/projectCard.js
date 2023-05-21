@@ -1,22 +1,23 @@
 import Button from "../../components/common/button";
 import { FiGithub } from "react-icons/fi";
 
-const ProjectCard = ({ number, name, description, skills, img }) => {
+const ProjectCard = ({ project }) => {
+  console.log(project.skills);
   return (
     <div className="grid grid-cols-7 py-6">
       <div className="col-span-4 object-cover my-auto">
-        <img src={img} alt={name} />
+        <img src={project.img} alt={project.name} />
       </div>
       <div className="col-span-3 relative flex flex-col items-end">
         <h2 className="text-right text-xs text-neonPink code ">
-          project {number}
+          project {project.number}
         </h2>
-        <h2 className="text-right font-bold">{name}</h2>
+        <h2 className="text-right font-bold">{project.name}</h2>
         <div className=" w-[110%]  bg-cardColor shadow-lg text-xs py-4 px-4 text-right my-4">
-          {description}
+          {project.description}
         </div>
         <div className="code text-xs text-textNormal">
-          {skills.map((skill, index) => {
+          {project.skills.map((skill, index) => {
             return (
               <span key={index} className="mx-1">
                 {skill}
