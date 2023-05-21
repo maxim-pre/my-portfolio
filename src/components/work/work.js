@@ -1,6 +1,7 @@
 import SectionHeader from "../../components/common/sectionHeader";
 import ProjectCard from "./projectCard";
 import ProjectCardAlternate from "./projectCardAlternate";
+import MobileProjectCard from "./mobileProjectCard";
 import bugtrackerImage from "../../images/bugtracker.png";
 const Work = () => {
   const projects = [
@@ -8,7 +9,7 @@ const Work = () => {
       number: 1,
       name: "Bugtracker",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Lorem Ipsum is simply dummy text of the printing language and it really useful when you are tyring to develop website and you need some dummy text for example when you are trying to see how something would look if it had some text kinda like what I'm doing now and why Im writing all this gibberish",
       img: bugtrackerImage,
       skills: ["React", "Django", "Heroku", "Django REST framework"],
     },
@@ -16,8 +17,7 @@ const Work = () => {
   return (
     <div className="  max-w-[800px] text-textLight">
       <SectionHeader number={"2"} text={"Some things I've built"} />
-      <ProjectCard project={projects[0]} />
-      <ProjectCardAlternate project={projects[0]} />
+      <MobileProjectCard project={projects[0]} />
     </div>
   );
 };
