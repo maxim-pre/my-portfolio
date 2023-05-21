@@ -17,7 +17,12 @@ const Work = () => {
   return (
     <div className="  max-w-[800px] text-textLight">
       <SectionHeader number={"2"} text={"Some things I've built"} />
-      <MobileProjectCard project={projects[0]} />
+      <div className="sm:hidden">
+        <MobileProjectCard project={projects[0]} />
+      </div>
+      <div className="hidden sm:block">
+        <ProjectCard project={projects[0]} />
+      </div>
     </div>
   );
 };

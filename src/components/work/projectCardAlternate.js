@@ -24,7 +24,7 @@ const ProjectCardAlternate = ({ project }) => {
         </div>
         <div className="flex mt-4 items-center  justify-start">
           <Button label={"View Website"} />
-          <div className="mr-6 cursor-pointer">
+          <div className="mx-6 cursor-pointer">
             <FiGithub />
           </div>
         </div>
