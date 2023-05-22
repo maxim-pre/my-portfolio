@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
           project {project.number}
         </h2>
         <h2 className="text-right font-bold">{project.name}</h2>
-        <div className=" w-[120%]  bg-cardColor shadow-lg text-xs py-4 px-4 text-right my-4">
+        <div className=" w-[120%]  bg-cardColor shadow-lg py-4 px-4 text-right my-4">
           {project.description}
         </div>
         <div className="code text-xs text-textNormal w-[120%] text-right">

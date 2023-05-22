@@ -13,16 +13,16 @@ const Home = () => {
         <h2 className="text-textNormal font-bold md:text-7xl sm:text-5xl text-4xl mb-4">
           I am a software Engineer.
         </h2>
-        <p className="text-textNormal md:w-[70%] mb-2 text-xs leading-[20px]">
+        <p className="text-textNormal md:w-[70%] mb-2 leading-6">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
-        <button className="border border-textLight py-2 px-4 mt-8 text-textLight rounded-sm group duration-300 hover:border-neonPink">
+        <button className="border border-textLight py-4 px-6 mt-8 text-textLight rounded group duration-300 hover:border-neonPink">
           <div className="flex items-center justify-center box-border">
-            <div className="px-1 text-sm">Checkout my work</div>
-            <div className="px-2 duration-300 group-hover:rotate-90 group-hover:text-neonPink">
+            <div className="px-1 code">Checkout my work</div>
+            <div className="px-2 duration-300 group-hover:rotate-90 group-hover:text-neonPink text-lg">
               <BsArrowRight />
             </div>
           </div>
