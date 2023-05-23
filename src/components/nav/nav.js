@@ -8,7 +8,7 @@ const Nav = ({ scroll }) => {
   const scrollClass = scroll == "up" ? "" : "-translate-y-[100%]";
   return (
     <nav
-      className={`backdrop-blur-md bg-backgound/80 w-full h-24 z-30  flex justify-between items-center px-8 sm:px-12 fixed top-0 ease-in duration-300 ${scrollClass} shadow-sm`}
+      className={`backdrop-blur-md bg-backgound/80 w-full h-24 z-30 flex justify-between items-center px-8 sm:px-12 fixed top-0 ease-in duration-300 ${scrollClass} shadow-sm`}
     >
       <Logo />
       <ul className="hidden sm:flex items-center text-textLight text-sm">
@@ -17,7 +17,7 @@ const Nav = ({ scroll }) => {
         })}
         <Button label={"Resume"} />
       </ul>
-      <RiMenu3Fill className="sm:hidden text-neonPink text-4xl " />
+      <RiMenu3Fill className="sm:hidden text-neonPink text-4xl z-40 " />
     </nav>
   );
 };
