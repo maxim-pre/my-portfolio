@@ -3,7 +3,7 @@ import profilePicture from "../../images/me.jpg";
 import SectionHeader from "../common/sectionHeader";
 const About = () => {
   return (
-    <div className=" max-w-[1000px] text-textLight py-16 sm:pb-64">
+    <div className=" max-w-[1000px] text-textLight py-16 sm:pb-32" id="About">
       {/* header */}
       <SectionHeader number={"1"} text={"About"} />
       {/* end header */}
