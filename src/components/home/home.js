@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -31,14 +32,16 @@ const Home = () => {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </p>
-          <button className="border border-textLight py-4 px-6 mt-8 text-textLight rounded group duration-300 hover:border-neonPink">
-            <div className="flex items-center justify-center box-border">
-              <div className="px-1 code">Checkout my work</div>
-              <div className="px-2 duration-300 group-hover:rotate-90 group-hover:text-neonPink text-lg">
-                <BsArrowRight />
+          <Link to="Work" spy={true} offset={-20} smooth={true} duration={500}>
+            <button className="border border-textLight py-4 px-6 mt-8 text-textLight rounded group duration-300 hover:border-neonPink">
+              <div className="flex items-center justify-center box-border">
+                <div className="px-1 code">Checkout my work</div>
+                <div className="px-2 duration-300 group-hover:rotate-90 group-hover:text-neonPink text-lg">
+                  <BsArrowRight />
+                </div>
               </div>
-            </div>
-          </button>
+            </button>
+          </Link>
         </Fade>
       </div>
     </div>

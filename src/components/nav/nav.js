@@ -42,7 +42,7 @@ const Nav = ({ scroll }) => {
           }}
         />
       </nav>
-      {mobileNav && <SideNav setMobileNav={setMobileNav} />}
+      <SideNav setMobileNav={setMobileNav} mobileNav={mobileNav} />
     </div>
   );
 };
