@@ -27,10 +27,9 @@ const Home = () => {
             I am a software Engineer.
           </h2>
           <p className="text-textNormal md:w-[70%] mb-2 leading-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            I specialize in building (and occasionally designing) things for the
+            web. I enjoy working across the entire stack and I'm currently
+            looking for new opportunities!
           </p>
           <Link to="Work" spy={true} offset={-20} smooth={true} duration={500}>
             <button className="border border-textLight py-4 px-6 mt-8 text-textLight rounded group duration-300 hover:border-neonPink">

@@ -1,10 +1,12 @@
 import emailjs from "emailjs-com";
 import { TfiClose } from "react-icons/tfi";
 import FormInput from "./common/formInput";
+import { toast } from "react-toastify";
 
 const EmailForm = ({ handleClose }) => {
   const sendEmail = (e) => {
     e.preventDefault();
+    const email = toast.loading("sending email....");
 
     emailjs
       .sendForm(
@@ -16,11 +18,31 @@ const EmailForm = ({ handleClose }) => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.update(email, {
+            render: "Email recieved!",
+            type: "success",
+            isLoading: false,
+            autoClose: 3000,
+          });
         },
         (error) => {
           console.log(error.text);
+          toast.update(email, {
+            render: "Something went wrong",
+            type: "error",
+            isLoading: false,
+            autoClose: 3000,
+          });
         }
       );
+  };
+
+  const notify = () => {
+    toast.promise(sendEmail, {
+      pending: "Sending email",
+      success: "Email recieved!",
+      error: "Something went wrong",
+    });
   };
 
   return (
@@ -45,7 +67,7 @@ const EmailForm = ({ handleClose }) => {
       <input
         type="submit"
         value="Send"
-        className="border border-neonPink mt-4 bg-neonPink text-[#fff] text-xs hover:cursor-pointer code font-bold"
+        className="border border-neonPink mt-4 bg-neonPink text-[#fff] text-xs hover:cursor-pointer code font-bold py-1"
       />
     </form>
   );

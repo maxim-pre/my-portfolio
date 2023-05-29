@@ -9,7 +9,7 @@ import AsideRight from "./components/asideRight";
 import Contact from "./components/contact";
 import { useState, useEffect } from "react";
 import { Fade } from "react-awesome-reveal";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [scrollDirection, setScrollDirection] = useState("up");

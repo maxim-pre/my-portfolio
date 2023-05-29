@@ -4,8 +4,8 @@ import Button from "../../components/common/button";
 
 const MobileProjectCard = ({ project }) => {
   return (
-    <div className="relative my-8">
-      <img src={project.img} className="rounded h-80 object-cover" />
+    <div className="relative my-8 ">
+      <img src={project.img} className="rounded h-80 object-cover w-full" />
       <div className="absolute w-full h-full bg-backgound top-0 opacity-95 px-8 py-4 rounded">
         <div className="flex justify-between">
           <div>
