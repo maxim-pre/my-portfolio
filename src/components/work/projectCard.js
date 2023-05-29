@@ -1,5 +1,6 @@
 import Button from "../../components/common/button";
 import { FiGithub } from "react-icons/fi";
+import projects from "../../projectInformation";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -18,8 +19,9 @@ const ProjectCard = ({ project }) => {
           project {project.number}
         </h2>
         <h2 className="text-right font-bold">{project.name}</h2>
-        <div className=" w-[120%] text-xs sm:text-md bg-cardColor shadow-lg py-4 px-4 text-right my-4">
-          {project.description}
+        <div className=" w-[120%] text-xs sm:text-md bg-cardColor shadow-lg py-4 px-4 text-left my-4">
+          <p className="mb-2">{project.description}</p>
+          <p>{project.personal}</p>
         </div>
         <div className="code text-xs text-textNormal w-[120%] text-right">
           {project.skills.map((skill, index) => {

@@ -5,8 +5,11 @@ import Button from "../../components/common/button";
 const MobileProjectCard = ({ project }) => {
   return (
     <div className="relative my-8 ">
-      <img src={project.img} className="rounded h-80 object-cover w-full" />
-      <div className="absolute w-full h-full bg-backgound top-0 opacity-95 px-8 py-4 rounded">
+      <img
+        src={project.img}
+        className="absolute rounded object-cover w-full h-full"
+      />
+      <div className=" w-full h-full bg-backgound top-0 opacity-95 px-8 py-4 rounded">
         <div className="flex justify-between">
           <div>
             <h2 className="text-neonPink font-bold code text-sm text-left">
@@ -23,8 +26,11 @@ const MobileProjectCard = ({ project }) => {
           </div>
         </div>
         <div className="flex flex-col justify-between">
-          <p className="text-xs text-left text-textNormal my-4 leading-5">
+          <p className="text-xs text-left text-textNormal mt-4 mb-2 leading-5">
             {project.description}
+          </p>
+          <p className="text-xs text-left text-textNormal leading-5">
+            {project.personal}
           </p>
           <div className="flex justify-start my-4">
             {project.skills.map((skill, index) => {

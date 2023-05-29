@@ -11,7 +11,8 @@ const ProjectCardAlternate = ({ project }) => {
         </h2>
         <h2 className="text-right font-bold">{project.name}</h2>
         <div className=" w-[110%] text-xs bg-cardColor shadow-lg py-4 px-4 text-left my-4 z-10">
-          {project.description}
+          <p className="mb-2">{project.description}</p>
+          <p>{project.personal}</p>
         </div>
         <div className="code text-xs text-textNormal">
           {project.skills.map((skill, index) => {

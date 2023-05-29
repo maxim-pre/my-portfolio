@@ -3,6 +3,8 @@ import ProjectCard from "./projectCard";
 import ProjectCardAlternate from "./projectCardAlternate";
 import MobileProjectCard from "./mobileProjectCard";
 import { projects } from "../../lib/projects";
+import { Fade } from "react-awesome-reveal";
+
 const Work = () => {
   return (
     <div className="  max-w-[1000px] text-textLight" id="Work">
@@ -13,13 +15,15 @@ const Work = () => {
         })}
       </div>
       <div className="hidden sm:block">
-        {projects.map((project, index) => {
-          if (index % 2 == 0) {
-            return <ProjectCard project={project} />;
-          } else {
-            return <ProjectCardAlternate project={project} />;
-          }
-        })}
+        <Fade triggerOnce cascade damping={0.1}>
+          {projects.map((project, index) => {
+            if (index % 2 == 0) {
+              return <ProjectCard project={project} />;
+            } else {
+              return <ProjectCardAlternate project={project} />;
+            }
+          })}
+        </Fade>
       </div>
     </div>
   );
