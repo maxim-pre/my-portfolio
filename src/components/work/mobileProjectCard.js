@@ -19,10 +19,14 @@ const MobileProjectCard = ({ project }) => {
           </div>
 
           <div className="flex items-center justify-start">
-            <div className="mx-4">
-              <FiGithub />
-            </div>
-            <Button label={"View Website"} />
+            <a href={project.github}>
+              <div className="mx-4">
+                <FiGithub />
+              </div>
+            </a>
+            <a href={project.url}>
+              <Button label={"View Website"} />
+            </a>
           </div>
         </div>
         <div className="flex flex-col justify-between">
