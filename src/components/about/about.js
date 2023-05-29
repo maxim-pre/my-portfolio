@@ -42,7 +42,6 @@ const About = () => {
         </div>
         <div className=" col-span-2 flex items-center">
           <div className="object-cover w-52 group mx-auto mb-12 sm:mb-0">
-            <div className="absolute w-52 h-[17.7rem] bg-neonPink z-20 opacity-30 group-hover:opacity-0 duration-200"></div>
             <div className="absolute w-52 h-[17.7rem] border-2 border-neonPink translate-x-4 translate-y-4 rounded group-hover:translate-x-5 group-hover:translate-y-5 duration-200 "></div>
             <div className="relative group-hover:-translate-x-1 group-hover:-translate-y-1 duration-200">
               <img

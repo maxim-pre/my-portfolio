@@ -7,3 +7,24 @@
 .code {
   font-family: "Fira Code", "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(8px);
+}
+
+.modal {
+  top: "50%";
+  left: "50%";
+  right: "auto";
+  bottom: "auto";
+  margin-right: "-50%";
+  transform: "translate(-50%, -50%)";
+  background: "#f5f5f5";
+  width: "50%";
+  border: "none";
+}
