@@ -1,11 +1,11 @@
 import { FiGithub } from "react-icons/fi";
-import { FiExternalLink } from "react-icons/fi";
 import Button from "../../components/common/button";
 
 const MobileProjectCard = ({ project }) => {
   return (
     <div className="relative my-8 ">
       <img
+        alt="Project"
         src={project.img}
         className="absolute rounded object-cover w-full h-full"
       />

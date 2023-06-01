@@ -2,7 +2,6 @@ import Button from "./common/button";
 import Modal from "react-modal";
 import { useState } from "react";
 import EmailForm from "./emailForm";
-import { Fade } from "react-awesome-reveal";
 const Contact = () => {
   const [modal, setModal] = useState(false);
 

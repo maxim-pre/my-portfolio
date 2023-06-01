@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const Nav = ({ scroll }) => {
   const navItems = ["About", "Work", "Contact"];
-  const scrollClass = scroll == "up" ? "" : "-translate-y-[100%]";
+  const scrollClass = scroll === "up" ? "" : "-translate-y-[100%]";
   const [mobileNav, setMobileNav] = useState(false);
 
   return (

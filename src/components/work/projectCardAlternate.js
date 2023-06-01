@@ -1,6 +1,5 @@
 import Button from "../../components/common/button";
 import { FiGithub } from "react-icons/fi";
-import projects from "../../projectInformation";
 
 const ProjectCardAlternate = ({ project }) => {
   return (

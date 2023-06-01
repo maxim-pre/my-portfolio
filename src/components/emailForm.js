@@ -37,14 +37,6 @@ const EmailForm = ({ handleClose }) => {
       );
   };
 
-  const notify = () => {
-    toast.promise(sendEmail, {
-      pending: "Sending email",
-      success: "Email recieved!",
-      error: "Something went wrong",
-    });
-  };
-
   return (
     <form onSubmit={sendEmail} className="flex flex-col">
       <div className="flex justify-between items-center">

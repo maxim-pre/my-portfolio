@@ -17,7 +17,7 @@ const Work = () => {
       <div className="hidden sm:block">
         <Fade triggerOnce cascade damping={0.1}>
           {projects.map((project, index) => {
-            if (index % 2 == 0) {
+            if (index % 2 === 0) {
               return <ProjectCard project={project} />;
             } else {
               return <ProjectCardAlternate project={project} />;

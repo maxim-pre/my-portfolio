@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-scroll";
