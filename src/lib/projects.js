@@ -2,6 +2,7 @@ import bugtrackerImage from "../images/bugtracker.png";
 import fitnessImage from "../images/fitnesstracker.png";
 import tictactoeImage from "../images/tictactoe.png";
 import daterbaseImage from "../images/Screenshot 2023-05-29 133507.png";
+import jobTrackerImage from "../images/jobTracker.png";
 
 const projects = [
   {
@@ -18,6 +19,18 @@ const projects = [
   },
   {
     number: 2,
+    name: "Job Tracker",
+    description:
+      "An application designed to help people organise, track, and manage their job applications throughout the hiring process. It provides a centraized platform to keep all job-related information orgnised and easily accessible.",
+    img: jobTrackerImage,
+    personal:
+      "This is a Full-Stack application that uses a Rails api with React Front-end and was built during the final two weeks of my Software Engineering bootcamp with General Assembly.",
+    skills: ["React", "Rails", "Heroku", "postgreSQL", "tailwind"],
+    url: "https://job-tracer.netlify.app/",
+    github: "https://github.com/maxim-pre/job-tracker-front",
+  },
+  {
+    number: 3,
     name: "Fitness Tracker",
     description:
       "A fitness tracking software for individuals to keep track of their progress in the gym. Log the sets, reps and weight for each exercise and save your workouts for future reference. You can also look up any exercises your interested in to see a description and a diagram to see how they're performed ",
@@ -30,7 +43,7 @@ const projects = [
     github: "https://github.com/maxim-pre/fitness-tracker",
   },
   {
-    number: 3,
+    number: 4,
     name: "DaterBase",
     description:
       "Daterbase Is a dating app for techies. Create your profile and search for other techies that match your preferences.",
@@ -42,7 +55,7 @@ const projects = [
     github: "https://github.com/maxim-pre/Date-abase-backend",
   },
   {
-    number: 4,
+    number: 5,
     name: "TicTacToe",
     description:
       "The classic tictactoe game where two players take turns marking and X or an O on a 3x3 grid aiming to create a stright line vertically, horizontally or diagonally",

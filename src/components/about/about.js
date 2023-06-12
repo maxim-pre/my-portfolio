@@ -11,14 +11,14 @@ const About = () => {
 
       <div className="grid grid-rows-2 sm:grid-rows-1 grid-cols-1 sm:grid-cols-5 ">
         <div className="flex flex-col sm:col-span-3 text-left text-textNormal ">
-          <p className="my-2 text-xs leading-5">
+          <p className="my-2 leading-5">
             Hi! My name is Max and I'm a junior full stack engineer. My
             intestest in software development started back in 2021 during my
             studies as a Civil Engineer where I was introduced to MatLab
             (Yuck!). Since then I natually go really into web development and
             never looked back since.
           </p>
-          <p className="my-2 text-xs leading-5">
+          <p className="my-2 leading-5">
             I learned a lot during my studies but I always disliked the freedom
             civil engineers have to come up with their own solutions, since they
             are burdened by the plethora of regulations and design codes they
@@ -26,7 +26,7 @@ const About = () => {
             quickly learned that software development is a lot more fun than
             designing beams and columns too.
           </p>
-          <p className="my-2 text-xs leading-5">
+          <p className="my-2 leading-5">
             Fast-forward to today, and I've just completed a software
             engineering bootcamp with{" "}
             <TextLink
@@ -38,7 +38,7 @@ const About = () => {
             and I'm in a position to bring my web development skills to the
             market.
           </p>
-          <p className="my-2 text-xs leading-5">
+          <p className="my-2 leading-5 text-textLight">
             Here are some of the technologies and languages I am proficient
             with:
           </p>
