@@ -3,7 +3,7 @@ import Button from "../../components/common/button";
 
 const MobileProjectCard = ({ project }) => {
   return (
-    <div className="relative my-8 ">
+    <div className="relative my-8">
       <img
         alt="Project"
         src={project.img}
@@ -15,7 +15,7 @@ const MobileProjectCard = ({ project }) => {
             <h2 className="text-neonPink font-bold code text-sm text-left">
               project {project.number}
             </h2>
-            <h2 className="text-left text-lg font-bold">{project.name}</h2>
+            <h2 className="text-left font-bold">{project.name}</h2>
           </div>
 
           <div className="flex items-center justify-start">
@@ -36,15 +36,12 @@ const MobileProjectCard = ({ project }) => {
           <p className="text-xs text-left text-textNormal leading-5">
             {project.personal}
           </p>
-          <div className="flex justify-start my-4">
+          <p className="my-4 text-left text-sm text-textNormal code">
             {project.skills.map((skill, index) => {
-              return (
-                <span className="text-xs text-textNormal code mr-4" key={index}>
-                  {skill}
-                </span>
-              );
+              if (index === project.skills.length - 1) return skill;
+              return `${skill}, `;
             })}
-          </div>
+          </p>
         </div>
       </div>
     </div>

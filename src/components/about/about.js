@@ -12,19 +12,17 @@ const About = () => {
       <div className="grid grid-rows-2 sm:grid-rows-1 grid-cols-1 sm:grid-cols-5 ">
         <div className="flex flex-col sm:col-span-3 text-left text-textNormal ">
           <p className="my-2 leading-5">
-            Hi! My name is Max and I'm a junior full stack engineer. My
-            intestest in software development started back in 2021 during my
-            studies as a Civil Engineer where I was introduced to MatLab
-            (Yuck!). Since then I natually go really into web development and
-            never looked back since.
-          </p>
-          <p className="my-2 leading-5">
-            I learned a lot during my studies but I always disliked the freedom
-            civil engineers have to come up with their own solutions, since they
-            are burdened by the plethora of regulations and design codes they
-            must conform to. Software engineering is the total opposite! And I
-            quickly learned that software development is a lot more fun than
-            designing beams and columns too.
+            I am a programmer with strong skills in Python and JavaScript who
+            loves building web applications and has a passion for problem
+            solving. It was during my studies to become a Civil Engineer where I
+            was introduced to programming and immediately knew that this is what
+            I wanted to do. I was amazed by what you could achieve with only a
+            text editor and some time. From that point, I taught myself Python
+            alongside my degree, writing scripts to solve engineering problems
+            and used programming to research ventilation in the London
+            Underground as part of my dissertation. I love agile development, as
+            well as the feeling of progression after each completed project and
+            the sense that there’s always more to learn.
           </p>
           <p className="my-2 leading-5">
             Fast-forward to today, and I've just completed a software

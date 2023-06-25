@@ -21,6 +21,8 @@ function App() {
       setScrollDirection("up");
     } else if (y < window.scrollY) {
       setScrollDirection("down");
+    } else if (y === 0) {
+      setScrollDirection("up");
     }
     setY(window.scrollY);
   };
@@ -35,7 +37,7 @@ function App() {
 
   window.addEventListener("scroll", handleScroll);
   return (
-    <div className="App relative">
+    <div className="App relative w-full">
       <ToastContainer />
       <Nav scroll={scrollDirection} />
       <div className="flex flex-col items-center sm:px-28 px-8">

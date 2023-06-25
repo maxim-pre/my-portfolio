@@ -7,9 +7,9 @@ import { Fade } from "react-awesome-reveal";
 
 const Work = () => {
   return (
-    <div className="  max-w-[1000px] text-textLight" id="Work">
+    <div className="max-w-[1000px] text-textLight" id="Work">
       <SectionHeader number={"2"} text={"Some things I've built"} />
-      <div className="sm:hidden">
+      <div className="sm:hidden relative">
         {projects.map((project, index) => {
           return <MobileProjectCard project={project} key={index} />;
         })}
