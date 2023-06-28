@@ -27,7 +27,7 @@ const Contact = () => {
       <div className="max-w-[400px] mx-auto flex justify-center items-center flex-col h-[43rem]">
         <h2 className="code text-neonPink ">03. Contact</h2>
         <h3 className="text-textLight text-4xl">Let's get in touch!</h3>
-        <p className="text-textNormal text-xs my-6">
+        <p className="text-textNormal text-sm my-6">
           I'm currently looking for new opportunities so my inbox is always
           open! Whether you have any questions or just want to say hi please
           feel free to drop me an email.

@@ -29,11 +29,11 @@ const MobileProjectCard = ({ project }) => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-between">
-          <p className="text-xs text-left text-textNormal mt-4 mb-2 leading-5">
+        <div className="flex flex-col justify-between text-sm">
+          <p className="text-left text-textNormal mt-4 mb-2 leading-5">
             {project.description}
           </p>
-          <p className="text-xs text-left text-textNormal leading-5">
+          <p className="text-left text-textNormal leading-5">
             {project.personal}
           </p>
           <p className="my-4 text-left text-sm text-textNormal code">

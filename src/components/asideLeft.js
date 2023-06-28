@@ -5,12 +5,14 @@ const AsideLeft = () => {
     <div className=" absolute sm:fixed bottom-0 left-0 px-8 flex flex-col items-center text-textNormal">
       <a
         href="https://github.com/maxim-pre"
+        target="_blank"
         className="my-2 cursor-pointer hover:text-neonPink hover:-translate-y-1 duration-200"
       >
         <FiGithub className="text-2xl" />
       </a>
       <a
         href="https://www.linkedin.com/in/maxim-prestwich-b82462204"
+        target="_blank"
         className="my-2 cursor-pointer hover:text-neonPink hover:-translate-y-1 duration-200 "
       >
         <FiLinkedin className="text-2xl" />

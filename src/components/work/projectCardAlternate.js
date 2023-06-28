@@ -9,7 +9,7 @@ const ProjectCardAlternate = ({ project }) => {
           project {project.number}
         </h2>
         <h2 className="text-right font-bold">{project.name}</h2>
-        <div className=" w-[110%] text-xs bg-cardColor shadow-lg py-4 px-4 text-left my-4 z-10">
+        <div className=" w-[110%] text-sm bg-cardColor shadow-lg py-4 px-4 text-left my-4 z-10">
           <p className="mb-2">{project.description}</p>
           <p>{project.personal}</p>
         </div>
@@ -23,10 +23,10 @@ const ProjectCardAlternate = ({ project }) => {
           })}
         </div>
         <div className="flex mt-4 items-center  justify-start">
-          <a href={project.url}>
+          <a href={project.url} target="_blank">
             <Button label={"View Website"} />
           </a>
-          <a href={project.github}>
+          <a href={project.github} target="_blank">
             <div className="mx-6 cursor-pointer">
               <FiGithub />
             </div>
