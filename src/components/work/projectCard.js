@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
           project {project.number}
         </h2>
         <h2 className="text-right font-bold">{project.name}</h2>
-        <div className=" w-[120%] text-sm sm:text-md bg-cardColor shadow-lg py-4 px-4 text-left my-4">
+        <div className=" w-[120%] text-sm sm:text-md bg-cardColor shadow-lg py-4 px-4 text-left my-4 rounded-md">
           <p className="mb-2">{project.description}</p>
           <p>{project.personal}</p>
         </div>

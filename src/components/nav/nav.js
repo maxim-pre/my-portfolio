@@ -31,9 +31,9 @@ const Nav = ({ scroll }) => {
               />
             );
           })}
-          <Fade direction="down" delay={300} duration={300} triggerOnce>
+          {/* <Fade direction="down" delay={300} duration={300} triggerOnce>
             <Button label={"Resume"} />
-          </Fade>
+          </Fade> */}
         </ul>
         <RiMenu3Fill
           className="sm:hidden text-neonPink text-4xl z-40"

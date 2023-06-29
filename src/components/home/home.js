@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-      className="bg-backgound flex items-center justify-center h-screen max-w-[1000px] mb-4"
+      className="flex items-center justify-center h-screen max-w-[1000px] mb-4"
       id="Home"
     >
       {/* content */}
@@ -26,9 +26,8 @@ const Home = () => {
             I am a software Engineer.
           </h2>
           <p className="text-textNormal md:w-[70%] mb-2 leading-6">
-            I specialize in building (and occasionally designing) things for the
-            web. I enjoy working across the entire stack and I'm currently
-            looking for new opportunities!
+            I specialize in building things for the web. I enjoy working across
+            the entire stack and I'm currently looking for new opportunities!
           </p>
           <Link to="Work" spy={true} offset={-20} smooth={true} duration={500}>
             <button className="border border-textLight py-4 px-6 mt-8 text-textLight rounded group duration-300 hover:border-neonPink">

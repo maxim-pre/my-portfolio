@@ -32,7 +32,7 @@ const Contact = () => {
           open! Whether you have any questions or just want to say hi please
           feel free to drop me an email.
         </p>
-        <Button label={"Say Hello"} onClick={openModal} />
+        <Button label={"Send an Email"} onClick={openModal} />
       </div>
       <p className="text-textNormal text-xs pb-4 code">
         Developed by Maxim Prestwich

@@ -9,7 +9,7 @@ const ProjectCardAlternate = ({ project }) => {
           project {project.number}
         </h2>
         <h2 className="text-right font-bold">{project.name}</h2>
-        <div className=" w-[110%] text-sm bg-cardColor shadow-lg py-4 px-4 text-left my-4 z-10">
+        <div className=" w-[110%] text-sm bg-cardColor shadow-lg py-4 px-4 text-left my-4 z-10 rounded-md">
           <p className="mb-2">{project.description}</p>
           <p>{project.personal}</p>
         </div>
