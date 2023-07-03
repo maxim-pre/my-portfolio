@@ -36,7 +36,7 @@ const About = () => {
             and I'm in a position to bring my web development skills to the
             market.
           </p>
-          <p className="my-2 leading-5 text-textLight">
+          <p className="my-2 leading-5 text-textNormal">
             Here are some of the technologies and languages I am proficient
             with:
           </p>
