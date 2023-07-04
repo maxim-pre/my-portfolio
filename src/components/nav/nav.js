@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-scroll";
 
 const Nav = ({ scroll }) => {
-  const navItems = ["About", "Work", "Contact"];
+  const navItems = ["About", "Work", "Interests", "Contact"];
   const scrollClass = scroll === "up" ? "" : "-translate-y-[100%]";
   const [mobileNav, setMobileNav] = useState(false);
 
