@@ -7,6 +7,7 @@ import Work from "./components/work/work";
 import AsideLeft from "./components/asideLeft";
 import AsideRight from "./components/asideRight";
 import Contact from "./components/contact";
+import Interests from "./components/interests/interests";
 import { useState, useEffect } from "react";
 import { Fade } from "react-awesome-reveal";
 import { ToastContainer } from "react-toastify";
@@ -47,6 +48,7 @@ function App() {
           <Home />
           <About />
           <Work />
+          <Interests />
           <Contact />
         </Fade>
       </div>
