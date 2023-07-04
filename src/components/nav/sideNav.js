@@ -47,20 +47,29 @@ const SideNav = ({ setMobileNav, mobileNav }) => {
           </div>
           <div className="my-5">
             <Link
-              to="Contact"
+              to="Interests"
               duration={300}
               spy={true}
               smooth={true}
               onClick={() => setMobileNav(false)}
             >
               <p className="code text-neonPink pb-1">03.</p>
+              <p>Interests</p>
+            </Link>
+          </div>
+          <div className="my-5">
+            <Link
+              to="Contact"
+              duration={300}
+              spy={true}
+              smooth={true}
+              onClick={() => setMobileNav(false)}
+            >
+              <p className="code text-neonPink pb-1">04.</p>
               <p>Contact</p>
             </Link>
           </div>
         </ul>
-        <button className="border rounded py-4 px-10 text-neonPink mx-auto my-6">
-          Resume
-        </button>
       </div>
     </div>
   );
