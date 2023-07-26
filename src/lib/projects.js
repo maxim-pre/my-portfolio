@@ -31,7 +31,7 @@ const projects = [
     github: "https://github.com/maxim-pre/job-tracker-front",
   },
   {
-    number: 2,
+    number: 3,
     name: "YouTube Assistant",
     description:
       "An application powered by AI that lets users ask any question about a YouTube Video from its URL",
@@ -43,7 +43,7 @@ const projects = [
     github: "https://github.com/maxim-pre/youtube_assistant_front",
   },
   {
-    number: 3,
+    number: 4,
     name: "Fitness Tracker",
     description:
       "A fitness tracking software for individuals to keep track of their progress in the gym. Log the sets, reps and weight for each exercise and save your workouts for future reference. You can also look up any exercises your interested in to see a description and a diagram to see how they're performed ",
@@ -56,7 +56,7 @@ const projects = [
     github: "https://github.com/maxim-pre/fitness-tracker",
   },
   {
-    number: 4,
+    number: 5,
     name: "DaterBase",
     description:
       "Daterbase Is a dating app for techies. Create your profile and search for other techies that match your preferences.",
@@ -68,7 +68,7 @@ const projects = [
     github: "https://github.com/maxim-pre/Date-abase-backend",
   },
   {
-    number: 5,
+    number: 6,
     name: "TicTacToe",
     description:
       "The classic tictactoe game where two players take turns marking and X or an O on a 3x3 grid aiming to create a stright line vertically, horizontally or diagonally",
