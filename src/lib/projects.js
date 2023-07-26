@@ -3,6 +3,7 @@ import fitnessImage from "../images/fitnesstracker.png";
 import tictactoeImage from "../images/tictactoe.png";
 import daterbaseImage from "../images/Screenshot 2023-05-29 133507.png";
 import jobTrackerImage from "../images/jobTracker.png";
+import YoutubeAssistantImage from "../images/youtubeassistnat.png";
 
 const projects = [
   {
@@ -28,6 +29,18 @@ const projects = [
     skills: ["React", "Rails", "Heroku", "postgreSQL", "tailwind"],
     url: "https://job-tracer.netlify.app/",
     github: "https://github.com/maxim-pre/job-tracker-front",
+  },
+  {
+    number: 2,
+    name: "YouTube Assistant",
+    description:
+      "An application powered by AI that lets users ask any question about a YouTube Video from its URL",
+    img: YoutubeAssistantImage,
+    personal:
+      "This is a project I built to test out the LangChain library, which allows developers to connect language models like chatGPT to other sources of data.  ",
+    skills: ["React", "Django", "LangChain", "FAISS"],
+    url: "https://youtubeassistant.netlify.app",
+    github: "https://github.com/maxim-pre/youtube_assistant_front",
   },
   {
     number: 3,
