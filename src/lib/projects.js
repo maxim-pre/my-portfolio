@@ -52,7 +52,7 @@ const projects = [
     personal:
       "This was built in 5 days during my software engineering bootcamp and I gained experience with responsive design and tailwind css",
     skills: ["React", "JavaScript", "Tailwind CSS"],
-    url: "https://fitness-tracker-react.herokuapp.com/",
+    url: "https://fitnesstracer.netlify.app/",
     github: "https://github.com/maxim-pre/fitness-tracker",
   },
   {
